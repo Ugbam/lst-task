@@ -1,0 +1,118 @@
+.row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  padding: 20px;
+  border-bottom: 1px solid #e5e5e5;
+  align-items: center;
+  gap: 20px;
+}
+
+.itemDetails {
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.itemImage {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.itemInfo {
+  flex: 1;
+}
+
+.itemName {
+  font-size: 16px;
+  font-weight: 600;
+  color: #252b42;
+  margin: 0 0 5px 0;
+}
+
+.itemCategory {
+  font-size: 14px;
+  color: #737373;
+  margin: 0 0 8px 0;
+}
+
+.removeButton {
+  background: none;
+  border: none;
+  color: #23a6f0;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.removeButton:hover {
+  color: #1a8cd8;
+}
+
+.quantity {
+  display: flex;
+  justify-content: center;
+}
+
+.price {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.currentPrice {
+  font-size: 18px;
+  font-weight: 700;
+  color: #252b42;
+}
+
+.originalPrice {
+  font-size: 14px;
+  color: #bdbdbd;
+  text-decoration: line-through;
+}
+
+.perItem {
+  font-size: 12px;
+  color: #737373;
+}
+
+@media (max-width: 768px) {
+  .row {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding: 15px;
+  }
+
+  .itemDetails {
+    gap: 12px;
+  }
+
+  .itemImage {
+    width: 60px;
+    height: 60px;
+  }
+
+  .quantity {
+    justify-content: flex-start;
+  }
+
+  .price {
+    text-align: left;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .currentPrice {
+    font-size: 16px;
+  }
+}

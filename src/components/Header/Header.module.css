@@ -1,0 +1,182 @@
+.topBar {
+  background-color: #23856d;
+  color: white;
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+.topBarContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.contactInfo {
+  display: flex;
+  gap: 20px;
+}
+
+.promotion {
+  font-weight: 600;
+}
+
+.socialLinks {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.socialIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s ease;
+}
+
+.socialIcon:hover {
+  transform: scale(1.1);
+}
+
+.socialIcon img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+}
+
+.header {
+  background-color: white;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 15px 0;
+}
+
+.headerContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.logo h1 {
+  color: #252b42;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  gap: 30px;
+}
+
+.nav a {
+  color: #737373;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.nav a:hover {
+  color: #23856d;
+}
+
+.userActions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.userActions a {
+  color: #23a6f0;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.iconButton {
+  background: none;
+  border: none;
+  color: #23a6f0;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 5px;
+  text-decoration: none;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.cartCount {
+  background: #ff4444;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 600;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+
+@media (max-width: 768px) {
+  .topBar {
+    display: none;
+  }
+
+  .headerContent {
+    flex-direction: column;
+    gap: 15px;
+    padding: 0 10px;
+  }
+
+  .nav {
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .userActions {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav {
+    gap: 15px;
+    font-size: 14px;
+  }
+
+  .userActions {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .socialLinks {
+    gap: 8px;
+  }
+
+  .socialIcon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .socialIcon img {
+    width: 16px;
+    height: 16px;
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "featuredProducts": [
+    {
+      "id": "1",
+      "name": "Graphic Design Course",
+      "description": "Learn professional graphic design with industry experts",
+      "price": 6.48,
+      "originalPrice": 16.48,
+      "image": "/images/image-1.jpg",
+      "department": "English Department",
+      "category": "Design",
+      "rating": 5,
+      "reviews": 26,
+      "inStock": true
+    },
+    {
+      "id": "2",
+      "name": "Web Development Bootcamp",
+      "description": "Complete web development course from beginner to advanced",
+      "price": 8.99,
+      "originalPrice": 19.99,
+      "image": "/images/image-2.jpg",
+      "department": "Computer Science",
+      "category": "Programming",
+      "rating": 4,
+      "reviews": 42,
+      "inStock": true
+    },
+    {
+      "id": "3",
+      "name": "Digital Marketing Mastery",
+      "description": "Master digital marketing strategies and tools",
+      "price": 7.25,
+      "originalPrice": 15.99,
+      "image": "/images/image-3.jpg",
+      "department": "Business Department",
+      "category": "Marketing",
+      "rating": 5,
+      "reviews": 38,
+      "inStock": true
+    },
+    {
+      "id": "4",
+      "name": "Photography Fundamentals",
+      "description": "Learn the art and science of photography",
+      "price": 5.99,
+      "originalPrice": 12.99,
+      "image": "/images/image-4.jpg",
+      "department": "Arts Department",
+      "category": "Photography",
+      "rating": 4,
+      "reviews": 29,
+      "inStock": true
+    },
+    {
+      "id": "5",
+      "name": "UI/UX Design Principles",
+      "description": "Create beautiful and functional user interfaces",
+      "price": 9.48,
+      "originalPrice": 18.99,
+      "image": "/images/image-5.jpg",
+      "department": "Design Department",
+      "category": "Design",
+      "rating": 5,
+      "reviews": 51,
+      "inStock": true
+    },
+    {
+      "id": "6",
+      "name": "Data Science Essentials",
+      "description": "Introduction to data science and analytics",
+      "price": 10.99,
+      "originalPrice": 22.99,
+      "image": "/images/image-6.jpg",
+      "department": "Computer Science",
+      "category": "Data Science",
+      "rating": 4,
+      "reviews": 33,
+      "inStock": true
+    },
+    {
+      "id": "7",
+      "name": "Content Writing Workshop",
+      "description": "Master the art of compelling content creation",
+      "price": 4.99,
+      "originalPrice": 11.99,
+      "image": "/images/image-7.jpg",
+      "department": "English Department",
+      "category": "Writing",
+      "rating": 4,
+      "reviews": 24,
+      "inStock": true
+    },
+    {
+      "id": "8",
+      "name": "Mobile App Development",
+      "description": "Build mobile apps for iOS and Android",
+      "price": 12.48,
+      "originalPrice": 24.99,
+      "image": "/images/image-8.jpg",
+      "department": "Computer Science",
+      "category": "Mobile Development",
+      "rating": 5,
+      "reviews": 47,
+      "inStock": true
+    }
+  ],
+  "relatedProducts": [
+    {
+      "id": "9",
+      "name": "Advanced JavaScript",
+      "description": "Deep dive into modern JavaScript concepts",
+      "price": 8.48,
+      "originalPrice": 17.99,
+      "image": "/images/image-9.jpg",
+      "department": "Computer Science",
+      "category": "Programming",
+      "rating": 5,
+      "reviews": 35,
+      "inStock": true
+    },
+    {
+      "id": "10",
+      "name": "Social Media Strategy",
+      "description": "Build effective social media campaigns",
+      "price": 6.99,
+      "originalPrice": 14.99,
+      "image": "/images/image-10.jpg",
+      "department": "Business Department",
+      "category": "Marketing",
+      "rating": 4,
+      "reviews": 28,
+      "inStock": true
+    },
+    {
+      "id": "11",
+      "name": "Video Editing Pro",
+      "description": "Professional video editing techniques",
+      "price": 9.99,
+      "originalPrice": 19.99,
+      "image": "/images/image-11.jpg",
+      "department": "Arts Department",
+      "category": "Video",
+      "rating": 5,
+      "reviews": 41,
+      "inStock": true
+    },
+    {
+      "id": "12",
+      "name": "E-commerce Fundamentals",
+      "description": "Start and grow your online business",
+      "price": 7.48,
+      "originalPrice": 16.99,
+      "image": "/images/image-12.jpg",
+      "department": "Business Department",
+      "category": "E-commerce",
+      "rating": 4,
+      "reviews": 32,
+      "inStock": true
+    }
+  ]
+}

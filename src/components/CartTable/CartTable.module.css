@@ -1,0 +1,31 @@
+.tableContainer {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tableHeader {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  background-color: #5c6670;
+  color: white;
+  padding: 15px 20px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.headerCell {
+  display: flex;
+  align-items: center;
+}
+
+.tableBody {
+  background: white;
+}
+
+@media (max-width: 768px) {
+  .tableHeader {
+    display: none;
+  }
+}

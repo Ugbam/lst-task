@@ -1,0 +1,34 @@
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 20px 0;
+  font-size: 14px;
+}
+
+.link {
+  color: #252b42;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #23856d;
+}
+
+.separator {
+  color: #bdbdbd;
+}
+
+.current {
+  color: #bdbdbd;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .breadcrumb {
+    padding: 15px 0;
+    font-size: 13px;
+  }
+}
